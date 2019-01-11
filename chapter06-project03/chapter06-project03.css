@@ -1,0 +1,76 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+
+body {
+    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.bar {
+    border: groove;
+    border-width: thin;
+    border-color: #ccf3ff;
+    background-color: #ccf3ff;
+    padding: 1em;
+    margin-top: .5em;
+    margin-right: 5em;
+    margin-bottom: 0;
+    margin-left: 5em;
+}
+
+td {
+    padding: 1em;
+}
+
+th {
+    text-align: left;
+    padding: .5em 0 .5em 1em;
+    background-color: #ccf3ff;
+    border-bottom-color: lightskyblue;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 115%;
+    border: none;
+    border-color: blue;
+    background-color: skyblue;
+    padding: .75em;
+}
+
+table {
+    margin: 1em 0 0 1em;
+    border-color: skyblue;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: groove;
+    border-color: skyblue;
+    border-bottom-width: thin;
+}
+
+    tr:last-child {
+        border-bottom: none;
+    }
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:90px;
+    height:90px;
+    display:block;
+    z-index:999;
+
+}
+
+
